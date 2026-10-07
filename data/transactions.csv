@@ -1,0 +1,4 @@
+transaction_id,timestamp,product_id,transaction_type,quantity_delta,unit_cost_price,unit_selling_price,notes
+TX-HIST01,2026-08-23T01:48:42.654645,PRD-102,SALE,-25,4.00,8.50,Previous month robotics workshop order
+TX-CURR01,2026-09-27T01:48:42.654645,PRD-102,SALE,-5,4.00,8.50,Recent walk-in sale
+TX-CURR02,2026-10-04T01:48:42.654645,PRD-101,SALE,-40,12.50,22.00,University AI lab bulk purchase

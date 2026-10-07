@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventory_app"
+version = "0.1.0"
+description = "Smart Inventory Management System Using Python, API Integration and AI"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "matplotlib>=3.8.0",
+    "google-genai>=0.3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning:google.*"]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"

@@ -1,0 +1,5 @@
+product_id,name,category,supplier_id,quantity,cost_price,selling_price,min_stock_level
+PRD-101,ESP32-S3 AI Camera Module,Microcontrollers,SUP-01,3,12.50,22.00,10
+PRD-102,MG996R High-Torque Servo,Actuators,SUP-01,45,4.00,8.50,15
+PRD-103,RPLiDAR A1M8 360 Laser Scanner,Sensors,SUP-02,2,75.00,115.00,5
+PRD-104,Raspberry Pi 5 (8GB RAM),Embedded Computers,SUP-02,28,68.00,95.00,8
